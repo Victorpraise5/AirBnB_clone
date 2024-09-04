@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/filters.css">
+    <link rel="stylesheet" href="styles/places.css">
   </head>
   <body>
     <header class="header">
@@ -15,12 +16,110 @@
     </header>
     <div class="container">
       <section class="filters">
-        <div class="locations">
-          <h3 class="states">States</h3>
-          <h4 class="subtitle">nbsp;</h4>
+        <div class="locations filter">
+          <h3>States</h3>
+          <h4>Filter by states available..</h4>
+          <ul class="popover">
+            <li>
+              <h2>State 1</h2>
+              <ul>
+                  <li>City A</li>
+                  <li>City B</li>
+              </ul>
+            </li>
+            <li>
+              <h2>State 2</h2>
+              <ul>
+                  <li>City C</li>
+                  <li>City D</li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div class="amenities"></div>
+        <div class="amenities filter">
+          <h3>Amenities</h3>
+          <h4>Select the amenities you want..</h4>
+          <ul class="popover">
+            <li>Amenity 1</li>
+            <li>Amenity 2</li>
+            <li>Amenity 3</li>
+          </ul>
+        </div>
         <button class="search-button">Search</button>
+      </section>
+      <section class="places">
+        <h1>Places</h1>
+        
+        <!-- Place Listings -->
+        <article>
+            <h2>Place Name 1</h2>
+            <div class="price_by_night">$120</div>
+
+            <div class="information">
+              <div class="max_guest">
+                  <span class="icon"><img src="images/icon_group.png" alt="Guest Icon"></span> 2 Guests
+              </div>
+              <div class="number_rooms">
+                  <span class="icon"><img src="images/icon_bed.png" alt="Bed Icon"></span> 1 Bedroom
+              </div>
+              <div class="number_bathrooms">
+                  <span class="icon"><img src="images/icon_bath.png" alt="Bath Icon"></span> 1 Bathroom
+              </div>
+            </div>
+            <div class="user">
+              Owner: <strong>John Doe</strong>
+            </div>
+          
+            <div class="description">
+              A beautiful place to stay with stunning views.
+            </div>
+        </article>
+        <article>
+            <h2>Place Name 2</h2>
+            <div class="price_by_night">$180</div>
+
+            <div class="information">
+              <div class="max_guest">
+                  <span class="icon"><img src="images/icon_group.png" alt="Guest Icon"></span> 3Guests
+              </div>
+              <div class="number_rooms">
+                  <span class="icon"><img src="images/icon_bed.png" alt="Bed Icon"></span> 2 Bedroom
+              </div>
+              <div class="number_bathrooms">
+                  <span class="icon"><img src="images/icon_bath.png" alt="Bath Icon"></span> 2 Bathroom
+              </div>
+            </div>
+            <div class="user">
+              Owner: <strong>James Bond</strong>
+            </div>
+          
+            <div class="description">
+              A beautiful place to stay with stunning views.
+            </div>
+        </article>
+        <article>
+            <h2>Place Name 3</h2>
+            <div class="price_by_night">$300</div>
+
+            <div class="information">
+              <div class="max_guest">
+                  <span class="icon"><img src="images/icon_group.png" alt="Guest Icon"></span> 5 Guests
+              </div>
+              <div class="number_rooms">
+                  <span class="icon"><img src="images/icon_bed.png" alt="Bed Icon"></span> 5 Bedroom
+              </div>
+              <div class="number_bathrooms">
+                  <span class="icon"><img src="images/icon_bath.png" alt="Bath Icon"></span> 5 Bathroom
+              </div>
+            </div>
+            <div class="user">
+              Owner: <strong>John Smith</strong>
+            </div>
+          
+            <div class="description">
+              A beautiful place to stay with stunning views.
+            </div>
+        </article>
       </section>
     </div>
     <footer class="footer">
